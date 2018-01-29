@@ -25,6 +25,21 @@ import CascadePicker from 'react-native-js-cascade-picker'
 />
 ```
 
+## API
+
+| Props               | Type            | Description                          | Required |
+| ------------------- | --------------- | ------------------------------------ | -------- |
+| `options`           | `Array<Option>` |                                      | **Yes**  |
+| `pickerText`        | `string`        |                                      | **Yes**  |
+| `onChange`          | `Function`      | Returns an `Option`.                 | **Yes**  |
+| `valueSelected`     | `any`           | A value to match into the `Option`s. |
+| `mainColor`         | `string`        |                                      |
+| `selectedColor`     | `string`        | Color for the selected item.         |
+| `itemColor`         | `string`        | Color for the items.                 |
+| `separatorColor`    | `string`        | Color for the separator.             |
+| `selectedTextColor` | `string`        |                                      |
+| `optionTextStyle`   | `any`           | Style for the text option.           |
+
 ## License
 
 MIT.
