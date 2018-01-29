@@ -7,6 +7,11 @@
 
 A pure JavaScript animated component that renders a picker with a cascade effect. Useful for navigation bars.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/wiki/InterfaceKit/react-native-js-cascade-picker/ios.gif" alt="iOS" width="400" />
+<img
+</p>
+
 ## Getting started
 
 `$ yarn add react-native-js-cascade-picker`
