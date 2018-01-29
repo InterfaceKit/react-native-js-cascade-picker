@@ -19,9 +19,9 @@ import CascadePicker from 'react-native-js-cascade-picker'
 // Render your component
 <CascadePicker
   options={[{ value: 2, label: 'Two' }, { value: 4, label: 'Four' }]}
-  valueSelected={2}
-  onChange={() => null}
-  pickerText='Hello'
+  valueSelected={this.state.val}
+  onChange={(option: Object) => this.setState({ val: option.value })}
+  pickerText='Select one'
 />
 ```
 
