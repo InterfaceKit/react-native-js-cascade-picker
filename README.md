@@ -1,14 +1,36 @@
 # react-native-js-cascade-picker
 
+<p>
+<img src="https://img.shields.io/npm/dm/react-native-js-cascade-picker.svg" />
+<img src="https://img.shields.io/npm/dt/react-native-js-cascade-picker.svg" />
+</p>
+
+A pure JavaScript animated component that renders a picker with a cascade effect. Useful for navigation bars.
+
 ## Getting started
 
-`$ npm install react-native-js-cascade-picker --save`
+`$ yarn add react-native-js-cascade-picker`
 
 ## Usage
 
-```javascript
-import RNReactNativeJsCascadePicker from 'react-native-js-cascade-picker'
+```jsx
+import CascadePicker from 'react-native-js-cascade-picker'
 
-// TODO: What to do with the module?
-RNReactNativeJsCascadePicker
+// Render your component
+<CascadePicker
+  options={[{ value: 2, label: 'Two' }, { value: 4, label: 'Four' }]}
+  valueSelected={2}
+  onChange={() => null}
+  pickerText='Hello'
+/>
 ```
+
+## License
+
+MIT.
+
+## Author
+
+Álvaro Medina Ballester `<amedina at apsl.net>`
+
+Built with 💛 by [APSL](https://github.com/apsl).
