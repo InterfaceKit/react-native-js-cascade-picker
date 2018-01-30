@@ -3,6 +3,7 @@
 <p>
 <img src="https://img.shields.io/npm/dm/react-native-js-cascade-picker.svg" />
 <img src="https://img.shields.io/npm/dt/react-native-js-cascade-picker.svg" />
+<img src="https://travis-ci.org/InterfaceKit/react-native-js-cascade-picker.svg?branch=master" />
 </p>
 
 A pure JavaScript animated component that renders a picker with a cascade effect. Useful for navigation bars.
