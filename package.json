@@ -1,6 +1,6 @@
 {
   "name": "react-native-js-cascade-picker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description":
     "A pure JavaScript animated component that renders a picker with a cascade effect. Useful for navigation bars.",
   "main": "index.js",
