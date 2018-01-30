@@ -25,7 +25,11 @@ import CascadePicker from 'react-native-js-cascade-picker'
 <CascadePicker
   options={[{ value: 2, label: 'Two' }, { value: 4, label: 'Four' }]}
   valueSelected={this.state.val}
-  onChange={(option: Object) => this.setState({ val: option.value })}
+  onChange={(option: ?Object) => {
+    if (option) {
+      this.setState({ val: option.value })
+    }
+  }}
   pickerText='Select one'
 />
 ```
